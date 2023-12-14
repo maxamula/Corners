@@ -11,5 +11,9 @@ endif()
 
 project ("Corners")
 
+#EDIT OPENCV PATH
+set(OPENCV_INCLUDE C:/opencv/build/include)
+set(OPENCV_LIB C:/opencv/build/x64/vc16/lib)
+
 # Включите подпроекты.
 add_subdirectory ("Corners")
