@@ -5,7 +5,7 @@
 include_directories(${OPENCV_INCLUDE})
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (Corners "Corners.cpp" "Corners.h")
+add_executable (Corners "main.cpp" )
 
 target_link_libraries(Corners PRIVATE ${OPENCV_LIB}/opencv_world480d.lib)
 
